@@ -59,13 +59,13 @@ Isi file dicek magic byte, bukan hanya ekstensi.
 ## URL publik (dipakai client)
 
 ```text
-https://cdn.jsdelivr.net/gh/iamutaki/sambasku-images@main/<path>
+https://cdn.jsdelivr.net/gh/sambasku/images@main/<path>
 ```
 
 Contoh:
 
 ```text
-https://cdn.jsdelivr.net/gh/iamutaki/sambasku-images@main/assets/words/01HXYZ….webp
+https://cdn.jsdelivr.net/gh/sambasku/images@main/assets/words/01HXYZ….webp
 ```
 
 URL lengkap disimpan di database SambasKu (Turso / SQLite):
@@ -99,7 +99,7 @@ repo ini saja. Variabel lingkungan (di API / Workers):
 
 ```env
 PUBLIC_IMAGE_PROVIDER=github
-PUBLIC_IMAGE_GITHUB_URL=https://github.com/iamutaki/sambasku-images
+PUBLIC_IMAGE_GITHUB_URL=https://github.com/sambasku/images
 PUBLIC_IMAGE_GITHUB_TOKEN=<pat>
 ```
 
